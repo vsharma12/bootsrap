@@ -1,0 +1,59 @@
+#btn_1, #btn_2 {
+  height: 35px;
+  width: 250px;
+  margin-right: 30px;
+  border-radius: 25px;
+}
+
+.btn {
+  height: 35px;
+  width: 250px;
+  border-radius: 25px;
+  margin: 20px;
+  border: none;
+  font-family: 'Abhaya Libre', serif;
+}
+
+.btn {
+  display: block;
+}
+
+#btn1 {
+  background-color: rgba(237,232,232,0.75);
+  color: rgb(0,0,0);
+}
+
+@media (max-width: 576px) {
+  #text {
+    min-height: 60vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Abhaya Libre';
+  }
+}
+
+@media (min-width: 768px) {
+  .h1, h1 {
+    letter-spacing: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  span {
+    letter-spacing: 16px;
+    margin-bottom: 1rem;
+    font-size: larger;
+  }
+}
+
+#icon {
+  width: 100%;
+  background-color: rgba(0,0,255,0);
+  height: 100px;
+}
+
